@@ -24,12 +24,12 @@ class guzzle extends Controller
          $postu[] = $post->id;
 
        
-     $sensores = new sensores;
+ /*    $sensores = new sensores;
         $sensores-> nombre = $post -> name;
         $sensores-> valores = $post -> last_value;
         $sensores-> id = $post -> id;
         $sensores->save();
-      
+      */
       } 
 
       return $postu;
